@@ -4,7 +4,7 @@ Forma parte de la serie '**Workshop about Python and micropython with Pico W in 
 
 ## Clase 11 - Indice - 90 minutos
 
-- Tutoriales y Programas que vamos a seguir
+- Tutoriales, Programas que vamos a seguir y Conexionado
 
 - Neopixel básico
 
@@ -38,17 +38,27 @@ Otros de interes
 
 ### Tabla resumen de programas
 
-| Programa                                               | Lenguaje | Objetivo de Aprendizaje    | Hw adicional                                                                     |
-| ------------------------------------------------------ | -------- | -------------------------- | -------------------------------------------------------------------------------- |
-| [R_bhwt_neopx1_3col_1_0.py](R_bhwt_neopx1_3col_1_0.py) | uPy      | probar 1er pixel 3 colores | Tira de neopixel en GPIO15, importante alimentar con +5volt, y compartir tierras |
-| [R_bhwt_neopx8_3col_1_0.py](R_bhwt_neopx8_3col_1_0.py) |          |                            |                                                                                  |
-| [R_bhwt_neopx8iris_1_0.py](R_bhwt_neopx8iris_1_0.py)   |          |                            |                                                                                  |
-| [R_bhwt_neopx16iris_1_0.py](R_bhwt_neopx16iris_1_0.py) |          |                            |                                                                                  |
-|                                                        |          |                            |                                                                                  |
+| Programa                                                               | Lenguaje | Objetivo de Aprendizaje    | Hw adicional                                                                     |
+| ---------------------------------------------------------------------- | -------- | -------------------------- | -------------------------------------------------------------------------------- |
+| [R_bhwt_neopx1_3col_1_0.py](R_bhwt_neopx1_3col_1_0.py)                 | uPy      | probar 1er pixel 3 colores | Tira de neopixel en GPIO15, importante alimentar con +5volt, y compartir tierras |
+| [R_bhwt_neopx8_3col_1_0.py](R_bhwt_neopx8_3col_1_0.py)                 |          |                            |                                                                                  |
+| [R_bhwt_neopx8iris_1_0.py](R_bhwt_neopx8iris_1_0.py)                   |          |                            |                                                                                  |
+| [R_bhwt_neopx16iris_1_0.py](R_bhwt_neopx16iris_1_0.py)                 |          |                            |                                                                                  |
+| [R2425CL12_neopxWifi_cheer1_1_2.py](R2425CL12_neopxWifi_cheer1_1_2.py) |          |                            |                                                                                  |
 
-### Recomendaciones de estudio despues de la clase
+### Conexionado
 
-Leer 
+Los neopixel tienen 4 pines :
+
+- GND : al negativo
+
+- Vcc = +4 a +7volt : alimentaremos a +5 volt
+
+- Din : cualquier pin GPIO nos vale : usaremos el GPIO15
+
+- Dout (opcional) : para encadenar mas neopixels
+
+![](C:\Users\josec\OneDrive\Documentos\GitHub\2425CL12_neopx\Pico_1neopxgpio15_bb.png)
 
 ## Neopixel básico
 
@@ -91,11 +101,11 @@ Es muy importante
 2. Tener en cuanta que cada uno de los 3 led de cada celda puede llegar a consumir en pico 20mA , es decir el color blanco consumiría 60mA máximo.
    
    1. Ejemplo de medida real tira de 8 neopixel todos los 3 colores RGB a 255  => blanco , consumo 308mA incluyendo el PICO W, que consume con la tira apagada =23mA
-   2. Consumo maximo de 8 nepixel en blanco = 36mA por led
+   2. Consumo máximo de 8 nepixel en blanco = 36mA por led
 
 ## Neopixel + wifi con conexión a internet
 
-Vamos a usar la conexión a internet para leer de una web un color y 'escribirlo' en nuestyro neopixel 
+Vamos a usar la conexión a internet para leer de una web un color y 'escribirlo' en nuestro neopixel . Ver la parte 3 del pdf
 
 ## Preguntas sobre la Clase 1 - 10 minutos
 
