@@ -58,7 +58,7 @@ Los neopixel tienen 4 pines :
 
 - Dout (opcional) : para encadenar mas neopixels
 
-![](C:\Users\josec\OneDrive\Documentos\GitHub\2425CL12_neopx\Pico_1neopxgpio15_bb.png)
+![](./Pico_1neopxgpio15_bb.png)
 
 ## Neopixel básico
 
