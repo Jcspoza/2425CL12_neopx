@@ -62,7 +62,7 @@ Los neopixel tienen 4 pines :
 
 ## Neopixel básico
 
-Usare las CL10 y CL11 de 2023, que he resumido en este pdf parte 1. [R22425_CL11_neopx.pptx](R22425_CL11_neopx.pptx)
+Usare las CL10 y CL11 de 2023, que he resumido en este pdf parte 1. [R2425_CL12_neopx.pdf](R2425_CL12_neopx.pdf)
 
 ### ¿Qué son?
 
@@ -90,13 +90,13 @@ Como se ve el manejo es muy básico y casi cualquier cosa de interes , ha de hac
 
 ## Manejo Avanzado
 
-Seguir el pdf parte 2 . [R22425_CL11_neopx.pptx](R22425_CL11_neopx.pptx)
+Seguir el pdf parte 2 . [R2425_CL12_neopx.pdf](R2425_CL12_neopx.pdf)
 
 ### Consumo
 
 Es muy importante 
 
-1. Alimentar la tira de neopixel a 5volt si es posible, aunque a 3.3 tambien funcionan
+1. Alimentar la tira de neopixel a 5volt si es posible, aunque a 3.3 también funcionan
 
 2. Tener en cuanta que cada uno de los 3 led de cada celda puede llegar a consumir en pico 20mA , es decir el color blanco consumiría 60mA máximo.
    
