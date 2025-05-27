@@ -28,18 +28,18 @@ BRILLO = 127 # brillo medio
 ESPERA = 2
 
 # 1- Crea el objeto neopixel
-NUMERO_PIXELS = 1
+NUMERO_PIXELS = 2
 NEOPIXEL_PIN = 15
 tira = NeoPixel(Pin(NEOPIXEL_PIN),NUMERO_PIXELS )
 
 # 2.1- configuramos pizarra delcontrolador a rojo 
-tira[0] = (BRILLO, 0, 0)
+tira[1] = (BRILLO, 0, 0)
 tira.write()
 sleep(ESPERA)
-tira[0] = (0, BRILLO, 0)
+tira[1] = (0, BRILLO, 0)
 tira.write()
 sleep(ESPERA)
-tira[0] = (0,0, BRILLO)
+tira[1] = (0,0, BRILLO)
 tira.write()
 sleep(ESPERA)
 

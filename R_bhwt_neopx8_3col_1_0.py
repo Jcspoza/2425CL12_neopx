@@ -40,9 +40,10 @@ delay = .5
 red = (brillo, 0, 0)
 green = (0, brillo, 0)
 blue = (0, 0, brillo)
+amarillo = (brillo, brillo, 0)
 apagado = (0, 0, 0)
 
-secuencia = [red, green, blue]
+secuencia = [red, green, blue, amarillo]
 
 # No hace falta- poner en off
 tira.fill(apagado)
